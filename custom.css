@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 60px;
+}
+.card {
+  border-radius: 15px;
+}
+.btn {
+  border-radius: 33px;
+}
+.card-custom {
+  max-width: 25%;
+  margin: auto;
+  padding: 8px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.underline {
+  text-decoration: underline;
+}
